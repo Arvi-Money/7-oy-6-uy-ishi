@@ -1,0 +1,46 @@
+body{
+  background-image: url(./assets/background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.pomodoro{
+  margin: 12rem auto;
+  width: 500px;
+  flex-direction: column;
+  color: white;
+}
+
+.pomodoro .break{
+  display: flex;
+  gap: 2rem;
+}
+
+.pomodoro .break div{
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 8px 16px;
+  width: 135px;
+  height: 40px;
+}
+
+.pomodoro span{
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 18px;
+}
+
+.pomodoro h1{
+  font-size: 128px;
+}
+
+.pomodoro button{
+  width: 135px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  border-radius: 50px;
+  border: 1px solid white;
+}
