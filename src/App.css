@@ -25,6 +25,14 @@ body{
   height: 40px;
 }
 
+.pomodoro .break div:hover{
+  background-color: white;
+}
+
+.pomodoro .break div:hover span{
+  color: black;
+}
+
 .pomodoro span{
   color: white;
   background-color: rgba(0, 0, 0, 0);
